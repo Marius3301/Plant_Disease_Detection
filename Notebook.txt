@@ -1,0 +1,38 @@
+===Dropout====
+Dropout is a regularizationntechiqu foe reducing overfitting in neural 
+netwoeks by preventing complex co-adaptations on training data. It is a very 
+efficient way of performing model averaging with nerual networks.
+
+=====Autograd======
+One of the most inportant packages form pytorch is autograd 
+
+
+======Validation Set=======
+A validation set has basically the same rol as k-foldscrissvalidation witch is to determien withc of the parameters 
+performes the best
+
+=======MustCheck=======
+AlexNet,
+AlexNetOWTBn
+GoogLeNet
+OverFeat,VGG
+ResNet-20
+VGGNet-16
+Faster R-CNN , YOLO , single shot detector SSD
+In order to overcome the known limitation of disease detection R-FCN(Region-based Fully Convolutional Network) , Faster R-CNN,
+SSD cmbined with VGG net and ResNet  deep featrue extractions.The model consturcted out of R-FCN and ResNet-50 optained an
+accuracy of 85.98%
+ In order to overcome complex backgorund and multiple dises on the same leafe  Segmentattion was proposed as a firs step in the process.
+CaffeNet was pre-trained on an ImageNet dataset and used as a classifier witha an overall accuracy of 96.3% in detecting
+13 different types of disease. AUGUMENTATION AND pre-training of the networks is very important .
+ MustCheck waht is Transfer learning .
+ When using a "deep" stategy the pre-trained GoogLeNet achieved 99.35% on PlantVilage dataset
+ Segmentattion and backgorund removal have a great impact .
+ For smartphone application Inception V3 and MobileNet were tested and obtained and accuracyof 88.3% and 92% . Preprocessing like
+ segmentation and cropping the image  was done .
+ Another approach was to use genetic algorithms in order to select the parameters for SuportVectorMachine , approach that achived
+ 98.14%
+ GAN architecture is use to generate data . GAN architecture is made out of 2 neural networks one that creates data and one that analizes 
+ DCGAN,Style 
+ GAN(Generative Adversarila Network) 
+ 
